@@ -1,0 +1,26 @@
+{
+  "name": "angular-format",
+  "version": "0.0.0",
+  "description": "String formatting in AngularJS",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "install": "bower install",
+    "run": "grunt",
+    "test": "grunt test"
+  },
+  "keywords": [
+    "angular",
+    "angularjs"
+  ],
+  "author": "Remco Haszing <remcohaszing@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jasmine": "^0.8.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jscs": "^1.0.0"
+  },
+  "dependencies": {
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
