@@ -40,6 +40,14 @@ module.exports = function(grunt) {
         dest: 'dist/<%= bower.name %>.js'
       }
     },
+    ngdocs: {
+      options: {
+        startPage: 'api/rh.format',
+        scripts: ['angular.js', 'src/angular-format.js'],
+        html5Mode: false
+      },
+      all: '<%= jasmine.unit.src %>'
+    },
     uglify: {
       dist: {
         src: '<%= ngAnnotate.dist.dest %>',
@@ -61,6 +69,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-jscs');
   grunt.loadNpmTasks('grunt-ng-annotate');
+  grunt.loadNpmTasks('grunt-ngdocs');
 
   grunt.registerTask('default', [
     'watch'
