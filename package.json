@@ -1,5 +1,5 @@
 {
-  "name": "angular-format",
+  "name": "angular-rh-format",
   "version": "0.0.0",
   "description": "String formatting in AngularJS",
   "main": "Gruntfile.js",
@@ -7,6 +7,10 @@
     "install": "bower install",
     "run": "grunt",
     "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/remcohaszing/angular-rh-format.git"
   },
   "keywords": [
     "angular",

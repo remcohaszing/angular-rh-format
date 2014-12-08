@@ -1,9 +1,10 @@
 {
-  "name": "angular-format",
+  "name": "angular-rh-format",
   "version": "0.0.0",
   "authors": [
     "Remco Haszing <remcohaszing@gmail.com>"
   ],
+  "homepage": "https://github.com/remcohaszing/angular-rh-format",
   "description": "String formatting in AngularJS",
   "keywords": [
     "angular",
