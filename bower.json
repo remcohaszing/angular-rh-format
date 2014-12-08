@@ -1,6 +1,6 @@
 {
   "name": "angular-rh-format",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "authors": [
     "Remco Haszing <remcohaszing@gmail.com>"
   ],
@@ -11,7 +11,6 @@
     "angularjs"
   ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "*.json",
