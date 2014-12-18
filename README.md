@@ -3,8 +3,8 @@ angular-rh-format
 
 [![Build Status](https://travis-ci.org/remcohaszing/angular-rh-format.svg?branch=master)](https://travis-ci.org/remcohaszing/angular-rh-format)
 
-Instroduction
--------------
+Introduction
+------------
 
 angular-rh-formatting provides simple string formatting in AngularJS. It takes
 a template string and formats it with the given parameters.
@@ -14,9 +14,9 @@ Getting started
 
 1. Get angular-rh-format in one of the following ways:
   - Using bower:
-    ```sh
-    $ bower install angular-rh-format
-    ```
+   ```sh
+   $ bower install angular-rh-format
+   ```
   - Download the [sources](https://raw.githubusercontent.com/remcohaszing/angular-rh-format/master/dist/angular-rh-format.js) or [minified sources](https://raw.githubusercontent.com/remcohaszing/angular-rh-format/master/dist/angular-rh-format.min.js)
 
 2. Include it in the HTML:
